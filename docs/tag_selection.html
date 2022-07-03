@@ -1,0 +1,14 @@
+---
+layout: page
+title: Tag Selection
+order: 3
+---
+
+<p>Select a tag you wish to see related Software Tactics for.</p>
+
+<ul>
+  {% assign my-tags = site.tags | sort %}
+  {% for tag in my-tags %}
+    <li><a href="{{ "tags/" | append: tag[0] | append: ".html" | relative_url }}">{{ tag[0] }}</a></li>
+  {% endfor %}
+</ul>

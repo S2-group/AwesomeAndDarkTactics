@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-02T12:38:47.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HXBjduxMy3iLt48F7vuD" version="20.0.4" type="google">
+  <diagram id="-ry5N-YWXddlaNA1nCuz" name="Awesome Tactic">
+    <mxGraphModel dx="1746" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qT-0_r0VVRt_dCbUm55m-2" value="&lt;b&gt;PARTICIPANT:&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#0000de&quot;&gt;placeholder&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="185" y="225" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qT-0_r0VVRt_dCbUm55m-3" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;CONTEXT:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;placeholder" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000DE;fillColor=#E6E6E6;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="255" y="190" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0PLh7_-vrQbvHsDU2Hkp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.344;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="qT-0_r0VVRt_dCbUm55m-4" target="qT-0_r0VVRt_dCbUm55m-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qT-0_r0VVRt_dCbUm55m-4" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;ARTIFACT:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&amp;nbsp;placeholder" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000DE;fillColor=#F2F2F2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="295" y="200" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qT-0_r0VVRt_dCbUm55m-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000DE;startArrow=classic;startFill=1;dashed=1;" parent="1" source="qT-0_r0VVRt_dCbUm55m-2" target="qT-0_r0VVRt_dCbUm55m-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qT-0_r0VVRt_dCbUm55m-7" value="&lt;b&gt;SOFTWARE&lt;br&gt;FEATURE:&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#0000de&quot;&gt;placeholder&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="375" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qT-0_r0VVRt_dCbUm55m-8" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;TACTIC INTENT:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;placeholder" style="rhombus;whiteSpace=wrap;html=1;fontColor=#0000DE;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0PLh7_-vrQbvHsDU2Hkp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="qT-0_r0VVRt_dCbUm55m-9" target="qT-0_r0VVRt_dCbUm55m-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qT-0_r0VVRt_dCbUm55m-9" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; TARGET QA:&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#0000de&quot;&gt;placeholder&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;size=40;" parent="1" vertex="1">
+          <mxGeometry x="285" y="92.5" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="0PLh7_-vrQbvHsDU2Hkp-1" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; OTHER RELATED QAs:&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#0000de&quot;&gt;placeholder&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;fillColor=#FFFFFF;size=40;" parent="1" vertex="1">
+          <mxGeometry x="160" y="30" width="285" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0PLh7_-vrQbvHsDU2Hkp-2" value="&lt;b&gt;MEASURED&lt;/b&gt;&lt;br&gt;&lt;b&gt;IMPACT:&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 222)&quot;&gt;placeholder&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="455" y="30" width="90" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

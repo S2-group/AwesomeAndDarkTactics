@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% include sidebar.html %}
+
+<div>
+  <p>
+    <a href="{{ 'catalog' | relative_url }}"> &lt;- Back to all categories</a>
+  </p>
+
+
+  <h1>Tactic(s) categorized as "{{ page.category-name }}"</h1>
+  <!-- <span>Legenda: Architectural Tactic (AT), Software Practice (SP), Unsustainable Pattern (UP)</span> -->
+
+  <ul>
+  
+  {% assign my-posts = site.posts | sort %}
+  {% for post in my-posts %}
+    {% if post.categories contains page.category-name %}
+      <!-- <li><a href="{{ post.url }}">{{ post.title }}</a>, published {{ post.date | date: "%Y-%m-%d" }}</li> -->
+      <!-- <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li> -->
+      {% if post.t-type == "Architectural Tactic" %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }} (AT)</a></li>
+        {% elsif post.t-type == "Software Practice" %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }} (SP)</a></li>
+        {% elsif post.t-type == "Unsustainable Pattern" %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }} (UP)</a></li>
+        {% else %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {% endif %}
+    {% endif %}
+  {% endfor %}
+  
+  </ul>
+  
+</div>

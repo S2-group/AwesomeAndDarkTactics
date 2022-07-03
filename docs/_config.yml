@@ -1,0 +1,82 @@
+# Site settings
+
+title: Awesome and Dark Tactics
+email:
+description: Archive of Awesome and Dark Tactics
+baseurl: "/AwesomeSoftwareTactics" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+domain: robinwiel.github.io/AwesomeSoftwareTactics       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://robinwiel.github.io/AwesomeSoftwareTactics  # the base hostname and protocol for your site, e.g. http://example.com
+
+theme: minima
+
+collections: 
+  posts:
+    output: true
+    permalink: /tactics/:name
+  
+include:
+  - categories/
+  - tags/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      show_in_nav: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      t-type: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-description: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-participant: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-artifact: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-context: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-feature: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-intent: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-targetQA: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-relatedQA: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-measuredimpact: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-countermeasure: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-source: "<span style=\"font-family: Courier New, monospace; font-weight: bold;\"> < unknown > </span>"
+      t-source-doi: "NA"
+      t-diagram: "NA"
+
+    # values:
+    #   t-type: "< unknown >"
+    #   t-description: "< unknown >"
+    #   t-participant: "< unknown >"
+    #   t-artifact: "< unknown >"
+    #   t-context: "< unknown >"
+    #   t-feature: "< unknown >"
+    #   t-goal: "< unknown >"
+    #   t-targetQA: "< unknown >"
+    #   t-relatedQA: "< unknown >"
+    #   t-measuredimpact: "< unknown >"
+    #   t-countermeasure: "< unknown >"
+    #   t-source: "< unknown >"
+    #   diagram: "NA"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

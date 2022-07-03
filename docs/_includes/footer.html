@@ -1,0 +1,43 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <!-- <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul> -->
+        <ul class="contact-list">
+          <li style="font-weight: bold;">Contact person</li>
+          <li>Patricia Lago (VU Amsterdam)</li>
+          <li><img src="{{ "assets/misc/icon-mail.png" | relative_url }}" style="width: 6%;">&nbsp;p.lago at vu.nl</li>
+          <li><img src="{{ "assets/misc/icon-website.png" | relative_url }}" style="width: 6%;">&nbsp;<a href="http://patricialago.nl">patricialago.nl</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <!-- {%- include social.html -%} -->
+        <img src=" {{ "assets/misc/logo-DISC.png" | relative_url }}" style="margin: 0 auto; display:block; width: 70%; padding-bottom: 15px;">
+      </div>
+
+      <div class="footer-col footer-col-3" style="text-align: right;">
+        <!-- <p>{{- site.description | escape -}}</p> -->
+        <p>The Archive of Awesome and Dark Tactics (AADT) is an initiative of the <a href="http://digitalsustainabilitycenter.nl/">Digital Sustainability Center (DiSC)</a>. It received funding from the <a href="https://vu.nl/en/about-vu/research-institutes/asi">VU Amsterdam Sustainability Institute</a>, and is maintained by the <a href="https://s2group.cs.vu.nl/">S2 Group</a> of the Vrije Universiteit Amsterdam.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

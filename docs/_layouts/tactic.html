@@ -1,0 +1,165 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  {% include sidebar.html %}
+
+  <p>
+    <a href="{{ "categories/" | append: page.categories[0] | append: ".html" | relative_url }}"> &lt;- Back to category</a>
+  </p>
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Tactic: {{ page.title | escape }}</h1>
+    <div>
+      <strong>Tactic sort:</strong>
+      {% if page.t-sort == "Awesome Tactic" %}
+        <span class="awesome-tactic">{{ page.t-sort}}</span>
+      {% elsif page.t-sort == "Dark Tactic" %}
+        <span class="awesome-tactic">{{ page.t-sort}}</span>
+      {% else %}
+        <span>{{ page.t-sort}}</span>
+      {% endif %}
+    </div>
+    <div>
+      <span><strong>Type:</strong> {{ page.t-type }}</span>
+    </div>
+    <div>
+      <span><strong>Category:</strong> </span><span><a href="{{ "categories/" | append: page.categories[0] | append: ".html" | relative_url }}">{{ page.categories[0] }}</a></span>
+    </div>
+    <div>
+      <span><strong>Tags:</strong></span>
+      {% assign my-tags = page.tags | sort %}
+      {% for my-tag in my-tags %}
+        <span><a href="{{ "tags/" | append: my-tag | append: ".html" | relative_url }}">{{ my-tag }}</a>&nbsp;</span>
+      {% endfor %}
+    </div>
+    <!-- <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      </p> -->
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <!-- Case: Awesome Tactic -->
+  {% if page.t-sort == "Awesome Tactic" %}
+    <hr>
+    <div>
+      <p class="st">
+        <h3 class="st">Title</h3>
+        <span class="st">{{ page.title }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Description</h3>
+        <span class="st">{{ page.t-description }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Participant </h3>
+        <span class="st">{{ page.t-participant }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Related software artifact</h3>
+        <span class="st">{{ page.t-artifact }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Context</h3>
+        <span class="st">{{ page.t-context }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Software feature</h3>
+        <span class="st">{{ page.t-feature }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Tactic intent</h3>
+        <span class="st">{{ page.t-intent }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Target quality attribute</h3>
+        <span class="st">{{ page.t-targetQA }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Other related quality attributes</h3>
+        <span class="st">{{ page.t-relatedQA }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Measured impact</h3>
+        <span class="st">{{ page.t-measuredimpact }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Source</h3>
+        <span class="st">{{ page.t-source }}</span>
+        {% unless page.t-source-doi == "NA" %}
+          <span>(DOI: <a href="{{ page.t-source-doi }}">{{ page.t-source-doi }}</a>)</span>
+        {% endunless %}
+      </p>
+    </div>
+
+  {% elsif page.t-sort == "Dark Tactic" %}
+    <hr>
+    <div>
+      <p class="st">
+        <h3 class="st">Title</h3>
+        <span class="st">{{ page.title }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Description</h3>
+        <span class="st">{{ page.t-description }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Participant </h3>
+        <span class="st">{{ page.t-participant }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Related artifact</h3>
+        <span class="st">{{ page.t-artifact }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Context</h3>
+        <span class="st">{{ page.t-context }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Feature</h3>
+        <span class="st">{{ page.t-feature }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Tactic intent</h3>
+        <span class="st">{{ page.t-intent }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Intent measure</h3>
+        <span class="st">{{ page.t-intentmeasure }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Countermeasure</h3>
+        <span class="st">{{ page.t-countermeasure }}</span>
+      </p>
+      <p class="st">
+        <h3 class="st">Source</h3>
+        <span class="st">{{ page.t-source }}</span>
+        {% unless page.t-source-doi == "NA" %}
+        <span>(DOI:&nbsp;<a href="{{ page.t-source-doi }}">{{ page.t-source-doi }}</a>)</span>
+        {% endunless %}
+      </p>
+    </div>
+  {% endif %}
+
+  <hr>
+  <div>
+    <h3 class="st">Graphical representation</h3>
+
+    {% if page.t-diagram == "NA" %}
+      <a href=" {{ "contributions" | relative_url }} "><img src=" {{ "assets/diagrams/contribution.png" | relative_url }}" style="margin: 0 auto; display:block; width: 50%;padding-top:10px;"></a>
+    {% else %}
+      <img src=" {{ "assets/diagrams/" | append: page.t-diagram | relative_url }}" style="margin: 0 auto; display:block; width: 50%;padding-top:10px;">
+    {% endif %}
+
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

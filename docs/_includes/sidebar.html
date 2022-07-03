@@ -1,0 +1,8 @@
+<div class="sidenav">
+    <span>All Tags</span>
+    
+    {% assign my-tags = site.tags | sort %}
+    {% for tag in my-tags %}
+        <a href="{{ "tags/" | append: tag[0] | append: ".html" | relative_url }}">{{ tag[0] }}</a></li>
+    {% endfor %}
+</div>

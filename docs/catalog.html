@@ -1,0 +1,30 @@
+---
+layout: page
+title: Catalog
+order: 2
+---
+
+{% include sidebar.html %}
+
+<div >
+    <h3>Category selection</h3>
+
+    {% assign my-categories = site.pages | where: 'layout', 'categories' %}
+    {% for item in my-categories %}
+        <!-- <div class="grid-item">
+                <a class="button" href="{{ "categories/" | append: item.category-name | append: ".html" | relative_url }}">{{ item.category-name }}</a>
+        </div> -->
+
+        <span style="font-weight: bold;">Category: <a  href="{{ "categories/" | append: item.category-name | append: ".html" | relative_url }}">{{ item.category-name }}</a> </span>
+        <ul>
+            {% if item.category-type == "Awesome Tactics" %}
+                <li>Type: <span class="awesome-tactic"> {{ item.category-type }} </span></li>
+            {% elsif item.category-type == "Dark Tactics" %}
+                <li>Type: <span class="dark-tactic"> {{ item.category-type }} </span></li>
+            {% else %}
+                <li>Type: {{ item.category-type }} </li>
+            {% endif %}
+            <li>Description: {{ item.category-description }} </li>
+        </ul>
+    {% endfor %}
+</div>
