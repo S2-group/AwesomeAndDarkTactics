@@ -3,13 +3,13 @@
 title: Awesome and Dark Tactics
 email:
 description: Archive of Awesome and Dark Tactics
-baseurl: "/archive" # the subpath of your site, e.g. /blog
+baseurl: "/ArchiveOfAwesomeAndDarkTactics" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-domain: s2group.cs.vu.nl/ArchiveOfAwesomeAndDarkTactics/       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://s2group.cs.vu.nl/ArchiveOfAwesomeAndDarkTactics/  # the base hostname and protocol for your site, e.g. http://example.com
+domain: s2group.cs.vu.nl       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://s2group.cs.vu.nl  # the base hostname and protocol for your site, e.g. http://example.com
 
 theme: minima
 
