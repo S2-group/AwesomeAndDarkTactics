@@ -3,7 +3,7 @@
 title: Awesome and Dark Tactics
 email:
 description: Archive of Awesome and Dark Tactics
-baseurl: "/ArchiveOfAwesomeAndDarkTactics" # the subpath of your site, e.g. /blog
+baseurl: "/AwesomeAndDarkTactics" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
