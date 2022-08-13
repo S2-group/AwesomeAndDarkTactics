@@ -15,5 +15,5 @@ t-targetQA: "Performance"
 t-relatedQA: "Energy-efficiency"
 t-measuredimpact: 
 t-source: "Master Thesis “Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud” by Sophie Vos"
-t-source-doi: "N/A"
+t-source-doi: "NA"
 ---
