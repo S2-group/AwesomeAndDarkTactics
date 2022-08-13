@@ -1,15 +1,19 @@
 ---
 layout: tactic
 title:  "Use batch instead of real-time data processing"
-tags: todo
-categories: resource-adaptation
-t-type: "Architectural Tactic"
+tags:   data-processing
 t-sort: "Awesome Tactic"
-t-description: "Description of how to execute and apply the design decision or best practice to the related artifact"
-t-participant: "The participant that should be applying the tactic"
-t-artifact: "The (software) artifact of the architecture that the tactic is applied to"
-t-targetQA: "The target quality attribute of this tactic"
-t-relatedQA: "Possible other influence quality attributes by this tactic (possibly a trade-off)"
-t-goal: "The influence the tactic should have on the related artifact"
-t-source: "The source of this tactic"
+t-type: "Architectural Tactic"
+categories: resource-adaptation
+t-description: "If the system objectives allow, transporting data in batches rather than in real-time could optimize the costs as there is less overhead. This decision depends on the workload. Something that should be considered is that batch processing involves a fluctuating pattern that requires resource scaling. Real-time processing is more constant and predictable.If the business requirements allow, sending data in batches could reduce the energy as less data needs to be transmitted over the network due to reduced network overhead. Experimentation is required to measure whether this reduction in overhead has a significant effect on energy efficiency."
+t-participant: "Cloud consumer"
+t-artifact: "Cloud workloads"
+t-context: "Public cloud"
+t-feature: "Data processing"
+t-intent: "Delaying data transport to allow batch processing, as opposed to continous real-time data transport and processing"
+t-targetQA: "Cost-effiency"
+t-relatedQA: "Energy-efficiency"
+t-measuredimpact: 
+t-source: "Master Thesis “Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud” by Sophie Vos"
+t-source-doi: "N/A"
 ---

@@ -1,15 +1,19 @@
 ---
 layout: tactic
 title:  "Rebuild software cloud-native"
-tags: todo
-categories: resource-adaptation
-t-type: "Architectural Tactic"
+tags:   cloud-principles rebuilding
 t-sort: "Awesome Tactic"
-t-description: "Description of how to execute and apply the design decision or best practice to the related artifact"
-t-participant: "The participant that should be applying the tactic"
-t-artifact: "The (software) artifact of the architecture that the tactic is applied to"
-t-targetQA: "The target quality attribute of this tactic"
-t-relatedQA: "Possible other influence quality attributes by this tactic (possibly a trade-off)"
-t-goal: "The influence the tactic should have on the related artifact"
-t-source: "The source of this tactic"
+t-type: "Architectural Tactic"
+categories: resource-adaptation
+t-description: "Instead of migrating existing software, rebuilding the software cloud-native could save costs as the system becomes more efficient and optimally uses the underlying infrastructure. This tactic does not apply when the software is not owned by the consumer. It is difficult to generalize the effect of cloud-native software on energy consumption and, hence, should be assessed per case. "
+t-participant: "Cloud consumer"
+t-artifact: "Cloud software (abstract)"
+t-context: "Public cloud"
+t-feature: 
+t-intent: "Rebuilding software cloud-native instead of migrating existing software to cloud,in order to optimize efficiency"
+t-targetQA: "Efficiency"
+t-relatedQA: "Cost-efficiency, energy-efficiency, performance"
+t-measuredimpact: 
+t-source: "Master Thesis “Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud” by Sophie Vos"
+t-source-doi: "N/A"
 ---

@@ -1,15 +1,19 @@
 ---
 layout: tactic
 title:  "Use spot instances"
-tags: todo
-categories: resource-allocation
-t-type: "Architectural Tactic"
+tags:   resources AWS
 t-sort: "Awesome Tactic"
-t-description: "Description of how to execute and apply the design decision or best practice to the related artifact"
-t-participant: "The participant that should be applying the tactic"
-t-artifact: "The (software) artifact of the architecture that the tactic is applied to"
-t-targetQA: "The target quality attribute of this tactic"
-t-relatedQA: "Possible other influence quality attributes by this tactic (possibly a trade-off)"
-t-goal: "The influence the tactic should have on the related artifact"
-t-source: "The source of this tactic"
+t-type: "Architectural Tactic"
+categories: resource-allocation
+t-description: "AWS EC2 spot instances allow access to spare EC2 capacity. These instances are offered for a discounted price. The catch is that these instances are only offered if there are available resources and can be retracted at a two-minute notice. Hence, they are suitable for fault-tolerant, stateless applications. The energy consumed by software will not reduce when using spot instances. On the contrary, as the software needs to perform extra tasks to be compatible with spot instances (e.g., storing intermediate states), the overall energy consumption of the program might even increase. Nevertheless, spot instances allow the use of spare capacity, instead of requesting AWS to run more physical machines for the on-demand workload. Hence, more output is produced for relatively little extra energy. Thus, using spot instances might have a positive effect on energy efficiency. This effect is, however, difficult to assess as there is little transparency on the internal processes of the spot instances architecture."
+t-participant: "Cloud consumer"
+t-artifact: "AWS spot instances"
+t-context: "Public cloud"
+t-feature: 
+t-intent: "Taking advantage of discounted resources for fault-tolerant and stateless applications"
+t-targetQA: "Cost-efficiency"
+t-relatedQA: 
+t-measuredimpact: 
+t-source: "Master Thesis “Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud” by Sophie Vos"
+t-source-doi: "N/A"
 ---

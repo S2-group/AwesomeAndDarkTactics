@@ -1,15 +1,19 @@
 ---
 layout: tactic
 title:  "Compress infrequently accessed data"
-tags: todo
-categories: resource-adaptation
-t-type: "Architectural Tactic"
+tags:   resources data-compression
 t-sort: "Awesome Tactic"
-t-description: "Description of how to execute and apply the design decision or best practice to the related artifact"
-t-participant: "The participant that should be applying the tactic"
-t-artifact: "The (software) artifact of the architecture that the tactic is applied to"
-t-targetQA: "The target quality attribute of this tactic"
-t-relatedQA: "Possible other influence quality attributes by this tactic (possibly a trade-off)"
-t-goal: "The influence the tactic should have on the related artifact"
-t-source: "The source of this tactic"
+t-type: "Architectural Tactic"
+categories: resource-adaptation
+t-description: "Data that is used infrequently should be compressed to optimize the storage costs. In contrast, data that is more frequently accessed might not be efficient to compress as the CPU power that is required to compress and extract the data might cost more than the costs saved of storing a smaller volume of data. Understanding the exact threshold to compress the data depends on the underlying hardware and can be defined through experimentation. Compressing large amounts of data that are not frequently accessed can result in major cost savings. In this case, we expect a correlation between cost and energy savings. Whenever less data is stored, less energy is used for storage. The only trade-off that needs to be considered is the amount of energy that is required to (de)compress the data"
+t-participant: "Cloud consumer"
+t-artifact: "Data resources"
+t-context: "Public cloud"
+t-feature: "Storage"
+t-intent: "Applying data compression to optimize storage costs"
+t-targetQA: "Cost-efficiency"
+t-relatedQA: "Energy-efficiency"
+t-measuredimpact: 
+t-source: "Master Thesis “Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud” by Sophie Vos"
+t-source-doi: "N/A"
 ---

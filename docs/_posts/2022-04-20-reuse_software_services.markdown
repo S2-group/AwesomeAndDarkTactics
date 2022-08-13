@@ -1,15 +1,19 @@
 ---
 layout: tactic
 title:  "Reuse software services"
-tags: todo
-categories: resource-allocation
-t-type: "Architectural Tactic"
+tags:   services SOA
 t-sort: "Awesome Tactic"
-t-description: "Description of how to execute and apply the design decision or best practice to the related artifact"
-t-participant: "The participant that should be applying the tactic"
-t-artifact: "The (software) artifact of the architecture that the tactic is applied to"
-t-targetQA: "The target quality attribute of this tactic"
-t-relatedQA: "Possible other influence quality attributes by this tactic (possibly a trade-off)"
-t-goal: "The influence the tactic should have on the related artifact"
-t-source: "The source of this tactic"
+t-type: "Architectural Tactic"
+categories: resource-allocation
+t-description: "Using services from AWS instead of implementing all functionalities from scratch is often more cost-efficient. The cloud-native software services are developed by specialists and native to the infrastructure. It is difficult to assess whether reusing AWS services has a positive effect on the energy efficiency of the workload. This is partly due to the lack of transparency of AWS native services concerning their energy consumption. Moreover, AWS services are versatile and potential effects on energy efficiency should be assessed per case. A potential positive effect on energy efficiency is the fact that the service might be more specialized and native to the architecture which causes less overhead. On the other hand, a service-driven design also introduces overhead due to communication mechanisms and orchestrators. Furthermore, it should be noted that there are also commercial incentives for offering AWS services at competitive prices."
+t-participant: "Cloud consumer"
+t-artifact: "Reusable software services"
+t-context: "Public cloud"
+t-feature: 
+t-intent: "Reusing existing software services instead of implementing similar functionality from scratch"
+t-targetQA: "Cost-efficiency"
+t-relatedQA: 
+t-measuredimpact: 
+t-source: "Master Thesis “Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud” by Sophie Vos"
+t-source-doi: "N/A"
 ---

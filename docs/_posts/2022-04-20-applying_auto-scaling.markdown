@@ -1,15 +1,19 @@
 ---
 layout: tactic
 title:  "Apply auto-scaling"
-tags: energy-efficiency cloud-principles
-categories: resource-allocation
-t-type: "Architectural Tactic"
+tags:   scaling cloud-principles
 t-sort: "Awesome Tactic"
-t-description: "Auto-scaling involves scaling the application to optimize the performance and costs. The application is monitored and automatically adjusted to ensure stable performance at the lowest costs. This enables on-demand resource usage which is a different approach compared to the traditional method where extra resources are constantly available to be prepared for peak load."
+t-type: "Architectural Tactic"
+categories: resource-allocation
+t-description: "Auto scaling involves scaling the application to optimize the performance and costs. The application is monitored and automatically adjusted to ensure stable performance at the lowest costs. This enables on-demand resource usage which is a different approach compared to the traditional method where extra resources are constantly available to be prepared for peak load. When applying auto-scaling, the number of resources used are adjusted based on the workload. Hence, the energy to power the resources is proportional to the workload. Thus, we expect a positive effect of auto-scaling on energy efficiency."
 t-participant: "Cloud consumer"
-t-artifact: "Resources such as servers, VMs, or Kubernetes nodes/containers"
+t-artifact: "Cloud workloads"
+t-context: "Public cloud"
+t-feature: "Resources allocated to workloads"
+t-intent: "Optimizing performance, cost, and energy-efficiency"
 t-targetQA: "Performance"
-t-relatedQA: "Energy-efficiency, availability"
-t-goal: "When developing software in the cloud, not all developers are adapted to this new approach and still use more resources than necessary to be ready for peak load rather than automatically scaling up, and hence taking full advantage of the benefits of cloud."
+t-relatedQA: "Energy-efficiency, cost-efficiency"
+t-measuredimpact: 
 t-source: "Master Thesis “Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud” by Sophie Vos"
+t-source-doi: "N/A"
 ---
