@@ -1,0 +1,20 @@
+---
+layout: tactic
+
+title:  "Always on"
+tags: 
+t-sort: "Dark Tactic"
+t-type: "Unsustainable Pattern"
+categories: edge-computing
+t-description: "Edge devices are by default considered as being always on even when they do nothing. This causes energy waste, but enables real-time services (like in-hospital patient monitoring or cloud gaming) anytime, or at least when needed."
+t-participant: "edge-provider "
+t-artifact: "Infrastructure "
+t-context: "Normal operation"
+t-feature: "Switching off devices"
+t-intent: "Consuming energy to enable real-time services all the time"
+t-intentmeasure: "Uptime of a service (availability) and energy use"
+t-countermeasure: "Cloud computing faced a similar problem in the past; countermeasures for the edge may build upon those created for the cloud."
+t-source: "*The Dark Side of Cloud and Edge Computing* by Klervie Toczé, Maël Madon, Muriel Garcia and Patricia Lago"
+t-source-doi: "https://doi.org/10.21428/bf6fb269.9422c084"
+t-diagram: "models-always_on.png"
+---

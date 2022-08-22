@@ -1,0 +1,20 @@
+---
+layout: tactic
+
+title:  "Lock-in"
+tags: 
+t-sort: "Dark Tactic"
+t-type: "Unsustainable Pattern"
+categories: cloud-computing
+t-description: "Vendor lock-in is economically unsustainable for cloud users because the difficulty to change cloud provider diminish their bargaining power, prevent them from reacting if the provider fails to provide the agreed service or even threaten their business assets in case of data breach or cyberattack on the cloud provider side."
+t-participant: "cloud-user, cloud-provider"
+t-artifact: "Cloud technology used"
+t-context: "Choice of technology"
+t-feature: "Termination of the service"
+t-intent: "Locking the cloud user in a specific technology, hence hindering the change for a different cloud provider"
+t-intentmeasure: "Cloud-provider changeability"
+t-countermeasure: "Standardization of cloud APIs and solutions that increase portability and interoperability"
+t-source: "*The Dark Side of Cloud and Edge Computing* by Klervie Toczé, Maël Madon, Muriel Garcia and Patricia Lago"
+t-source-doi: "https://doi.org/10.21428/bf6fb269.9422c084"
+t-diagram: "models-lock-in.png"
+---
