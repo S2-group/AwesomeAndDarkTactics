@@ -1,8 +1,7 @@
 ---
 layout: tactic
-
 title:  "Put application to sleep"
-tags:   energy-footprint
+tags:   energy-footprint measured
 t-sort: "Awesome Tactic"
 t-type: "Software Practice"
 categories: green-software-practice

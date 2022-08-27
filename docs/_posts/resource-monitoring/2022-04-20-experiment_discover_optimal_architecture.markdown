@@ -2,7 +2,7 @@
 layout:     tactic
 
 title: "Experiment to discover optimal architecture"
-tags: architecture resources monitoring
+tags: architecture
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: resource-monitoring

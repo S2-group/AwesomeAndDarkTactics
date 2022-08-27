@@ -1,7 +1,7 @@
 ---
 layout:     tactic
 title:      "Use reserved instances"
-tags:       resources 
+tags:        
 t-sort:     "Awesome Tactic"
 t-type:     "Architectural Tactic"
 categories: resource-allocation

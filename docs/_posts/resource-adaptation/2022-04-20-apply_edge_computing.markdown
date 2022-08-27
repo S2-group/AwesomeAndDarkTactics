@@ -1,7 +1,7 @@
 ---
 layout: tactic
 title:  "Apply edge computing"
-tags:   edge-computing
+tags:   edge-computing measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: resource-adaptation

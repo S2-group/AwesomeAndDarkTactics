@@ -1,7 +1,7 @@
 ---
 layout:     tactic
 title:      "Deallocate resources that are not used"
-tags:       scaling resources
+tags:       scaling
 t-sort:     "Awesome Tactic"
 t-type:     "Architectural Tactic"
 categories: resource-allocation

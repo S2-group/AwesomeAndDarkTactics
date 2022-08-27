@@ -1,7 +1,7 @@
 ---
 layout:     tactic
 title:      "Automatically monitor efficiency per workload"
-tags:       performance monitoring
+tags:       performance
 t-sort:     "Awesome Tactic"
 t-type:     "Architectural Tactic"
 categories: resource-monitoring

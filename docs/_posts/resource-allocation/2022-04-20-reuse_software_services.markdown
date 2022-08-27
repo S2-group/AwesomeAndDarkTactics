@@ -1,7 +1,7 @@
 ---
 layout: tactic
 title:  "Reuse software services"
-tags:   services SOA
+tags:   services
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: resource-allocation

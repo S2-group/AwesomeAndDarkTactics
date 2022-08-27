@@ -1,7 +1,7 @@
 ---
 layout: tactic
 title:  "Choose fitting deployment paradigm"
-tags:   deployments cloud-principles
+tags:   cloud-principles measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: resource-adaptation

@@ -1,7 +1,7 @@
 ---
 layout: tactic
 title:  "Compress infrequently accessed data"
-tags:   resources data-compression
+tags:   data-compression
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: resource-adaptation

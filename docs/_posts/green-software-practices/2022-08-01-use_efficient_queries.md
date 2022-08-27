@@ -2,7 +2,7 @@
 layout: tactic
 
 title:  "Use efficient queries"
-tags:   queries energy-footprint
+tags:   queries energy-footprint measured
 t-sort: "Awesome Tactic"
 t-type: "Software Practice"
 categories: green-software-practice

@@ -1,7 +1,7 @@
 ---
 layout: tactic
 title:  "Use spot instances"
-tags:   resources AWS
+tags:   AWS
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: resource-allocation
