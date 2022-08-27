@@ -351,6 +351,8 @@ span.st {
   background: #eee;
   overflow-x: hidden;
   padding: 8px 0;
+  bottom: 20px;
+  overflow-y: scroll;
 }
 
 .sidenav a {
@@ -383,4 +385,11 @@ span.awesome-tactic {
 
 span.dark-tactic {
   background-color: #ff8080;
+}
+
+div#footer-robin {
+  text-align: center;
+  font-size: x-small;
+  color: gray;
+  opacity: 0.6;
 }
