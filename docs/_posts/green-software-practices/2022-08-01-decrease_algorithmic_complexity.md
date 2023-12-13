@@ -2,7 +2,7 @@
 layout: tactic
 
 title:  "Decrease algorithmic complexity"
-tags:   energy-footprint algorithms
+tags:   energy-footprint algorithm-design
 t-sort: "Awesome Tactic"
 t-type: "Software Practice"
 categories: green-software-practice
