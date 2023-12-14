@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Quantization-Aware Training"
+title: "Use Quantization-Aware Training"
 tags: machine-learning model-training
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

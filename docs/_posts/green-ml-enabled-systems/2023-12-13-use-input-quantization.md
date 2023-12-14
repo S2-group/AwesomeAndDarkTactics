@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Input Quantization"
+title: "Use Input Quantization"
 tags: machine-learning data-centric
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

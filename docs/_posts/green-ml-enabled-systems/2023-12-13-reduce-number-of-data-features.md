@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Reduce Number of Data Features"
+title: "Reduce Number of Data Features"
 tags: machine-learning data-centric measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

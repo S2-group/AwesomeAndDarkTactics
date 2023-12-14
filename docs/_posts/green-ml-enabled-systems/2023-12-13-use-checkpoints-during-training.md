@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Checkpoints During Training"
+title: "Use Checkpoints During Training"
 tags: machine-learning model-training
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

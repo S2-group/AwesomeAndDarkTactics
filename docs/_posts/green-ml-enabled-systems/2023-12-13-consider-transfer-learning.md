@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Consider Transfer Learning"
+title: "Consider Transfer Learning"
 tags: machine-learning model-optimization
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

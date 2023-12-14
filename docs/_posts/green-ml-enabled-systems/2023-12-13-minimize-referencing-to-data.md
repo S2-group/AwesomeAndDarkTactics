@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Minimize Referencing to Data"
+title: "Minimize Referencing to Data"
 tags: machine-learning deployment
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

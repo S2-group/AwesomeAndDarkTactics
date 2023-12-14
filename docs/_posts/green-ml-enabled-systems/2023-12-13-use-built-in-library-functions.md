@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Built-In Library Functions "
+title: "Use Built-In Library Functions "
 tags: machine-learning algorithm-design libraries
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

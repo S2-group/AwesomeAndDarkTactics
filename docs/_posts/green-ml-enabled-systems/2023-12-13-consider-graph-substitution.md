@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Consider Graph Substitution"
+title: "Consider Graph Substitution"
 tags: machine-learning model-optimization measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

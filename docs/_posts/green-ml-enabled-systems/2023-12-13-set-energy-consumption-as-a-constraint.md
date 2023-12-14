@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Set Energy Consumption as a Model Constraint"
+title: "Set Energy Consumption as a Model Constraint"
 tags: machine-learning model-optimization
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

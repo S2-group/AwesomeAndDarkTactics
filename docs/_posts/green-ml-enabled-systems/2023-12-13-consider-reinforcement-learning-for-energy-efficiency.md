@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Consider Reinforcement Learning for Energy Efficiency"
+title: "Consider Reinforcement Learning for Energy Efficiency"
 tags: machine-learning algorithm-design
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

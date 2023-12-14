@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Energy-Efficient Hardware"
+title: "Use Energy-Efficient Hardware"
 tags: machine-learning deployment hardware
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

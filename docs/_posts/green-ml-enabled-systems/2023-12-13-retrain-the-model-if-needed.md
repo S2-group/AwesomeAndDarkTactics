@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Retrain the Model if Needed"
+title: "Retrain the Model if Needed"
 tags: machine-learning management
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

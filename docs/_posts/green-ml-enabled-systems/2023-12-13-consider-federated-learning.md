@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Consider Federated Learning"
+title: "Consider Federated Learning"
 tags: machine-learning deployment 
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

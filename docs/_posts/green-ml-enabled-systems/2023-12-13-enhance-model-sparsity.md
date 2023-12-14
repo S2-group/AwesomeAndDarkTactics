@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Enhance Model Sparsity"
+title: "Enhance Model Sparsity"
 tags: machine-learning model-optimization measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

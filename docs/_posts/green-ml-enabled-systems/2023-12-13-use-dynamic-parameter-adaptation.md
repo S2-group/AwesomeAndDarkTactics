@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Dynamic Parameter Adaptation"
+title: "Use Dynamic Parameter Adaptation"
 tags: machine-learning algorithm-design measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

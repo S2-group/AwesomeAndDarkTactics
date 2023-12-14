@@ -1,12 +1,12 @@
 ---
 layout: tactic
 
-title:  "Consider Knowledge Distillation"
+title: "Consider Knowledge Distillation"
 tags: machine-learning model-optimization
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: green-ml-enabled-systems
-t-description: "Knowledge distillation is a technique where a large, complex model (teacher) is used to train a smaller, simpler model (student). The goal is to transfer the learned information from the teacher model to the student model, allowing the student model to achieve comparable performance while requiring fewer computational resources. "Knowledge distillation improves performance when evaluating top 5 accuracy and energy consumption"
+t-description: "Knowledge distillation is a technique where a large, complex model (teacher) is used to train a smaller, simpler model (student). The goal is to transfer the learned information from the teacher model to the student model, allowing the student model to achieve comparable performance while requiring fewer computational resources. Knowledge distillation improves performance when evaluating accuracy and energy consumption."
 t-participant: "Data Scientist"
 t-artifact: "Machine Learning Algorithm"
 t-context: "Machine Learning"

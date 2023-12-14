@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Apply Sampling Techniques"
+title: "Apply Sampling Techniques"
 tags: machine-learning data-centric measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

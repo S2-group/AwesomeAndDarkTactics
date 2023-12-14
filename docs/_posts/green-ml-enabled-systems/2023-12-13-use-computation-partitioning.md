@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Computation Partitioning"
+title: "Use Computation Partitioning"
 tags: machine-learning deployment measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

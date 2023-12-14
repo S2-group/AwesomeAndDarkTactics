@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Monitor Computing Power"
+title: "Monitor Computing Power"
 tags: machine-learning management
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

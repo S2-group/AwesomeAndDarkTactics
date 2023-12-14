@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Energy-Aware Scheduling"
+title: "Use Energy-Aware Scheduling"
 tags: machine-learning deployment measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

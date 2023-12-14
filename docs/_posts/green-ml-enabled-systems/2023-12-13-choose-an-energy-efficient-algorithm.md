@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Choose an Energy Efficient Algorithm"
+title: "Choose an Energy Efficient Algorithm"
 tags: machine-learning algorithm-design measured
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
@@ -15,7 +15,7 @@ t-intent: "Improve energy efficiency by choosing an energy-efficient algorithm t
 t-targetQA: "Energy Efficiency"
 t-relatedQA: "Accuracy"
 t-measuredimpact: "Choosing suitable, energy efficient algorithms that achieve wanted outcomes can reduce the energy consumption of ML models (Kaack et al., 2022)"
-t-source:  
+t-source: 
 "Lynn H Kaack, Priya L Donti, Emma Strubell, George Kamiya, Felix Creutzig, and David Rolnick. 2022. Aligning Artificial Intelligence with Climate Change Mitigation. Nature Climate Change 12, 6 (2022), 518–527"
 t-source-doi: "https://doi.org/10.1038/s41558-022-01377-7"
 t-diagram: "choose-an-energy-efficient-algorithm.png"

@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Decrease Model Complexity"
+title: "Decrease Model Complexity"
 tags: machine-learning algorithm-design
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Informed Adaptation"
+title: "Use Informed Adaptation"
 tags: machine-learning management
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

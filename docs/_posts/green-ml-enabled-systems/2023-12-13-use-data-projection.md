@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Use Data Projection"
+title: "Use Data Projection"
 tags: machine-learning data-centric
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
