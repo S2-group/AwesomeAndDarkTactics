@@ -21,5 +21,5 @@ t-relatedQA: "Accuracy, Data Representativeness"
 t-measuredimpact: "Reducing number of input features can result in a reduction of energy consumption while still maintaining accuracy."
 t-source: "Roberto Verdecchia, Luis Cruz, June Sallou, Michelle Lin, James Wickenden, and Estelle Hotellier. 2022. Data-Centric Green AI: An Exploratory Empirical Study. (2022). In 2022 International Conference on ICT for Sustainability (ICT4S). IEEE, 35–45"
 t-source-doi: "https://doi.org/10.1002/widm.1507"
-T-diagram: "reduce-number-of-data-features.png"
+t-diagram: "reduce-number-of-data-features.png"
 ---
