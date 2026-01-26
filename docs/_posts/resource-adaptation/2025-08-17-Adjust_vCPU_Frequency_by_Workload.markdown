@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Adjust vCPU Frequency by Workload]"
+title:  "Adjust vCPU Frequency by Workload"
 tags: scaling workloads management 
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

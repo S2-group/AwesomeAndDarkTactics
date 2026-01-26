@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Using Cost-Benefit–Driven Strategy]"
+title:  "Using Cost-Benefit–Driven Strategy"
 tags: cost-reduction strategies design
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

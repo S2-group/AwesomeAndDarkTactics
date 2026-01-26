@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "Monitor Computer Power”
+title:  "Monitor Computer Power"
 tags: measured energy-footprint performance
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

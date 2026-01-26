@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Using Adaptive Response for Sustainable LLM Inference]"
+title:  "Using Adaptive Response for Sustainable LLM Inference"
 tags: machine-learning workloads
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

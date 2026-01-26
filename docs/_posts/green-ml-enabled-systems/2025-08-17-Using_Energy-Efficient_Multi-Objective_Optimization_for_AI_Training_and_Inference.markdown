@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Using Energy-Efficient Multi-Objective Optimization for AI Training and Inference]"
+title:  "Using Energy-Efficient Multi-Objective Optimization for AI Training and Inference"
 tags: algorithm-design machine-learning performance
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

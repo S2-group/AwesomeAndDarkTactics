@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Choose a Suitable DVFS Policy]"
+title:  "Choose a Suitable DVFS Policy"
 tags: scaling performance
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

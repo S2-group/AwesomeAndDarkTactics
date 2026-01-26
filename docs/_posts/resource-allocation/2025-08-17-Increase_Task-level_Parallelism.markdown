@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Increase Task-level Parallelism]"
+title:  "Increase Task-level Parallelism"
 tags: management performance
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

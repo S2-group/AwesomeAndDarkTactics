@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Enable CPU Oversubscription]"
+title:  "Enable CPU Oversubscription"
 tags: management performance
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

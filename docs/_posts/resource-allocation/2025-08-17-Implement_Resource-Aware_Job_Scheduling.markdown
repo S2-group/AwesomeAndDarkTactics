@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Implement Resource-Aware Job Scheduling]"
+title:  "Implement Resource-Aware Job Scheduling"
 tags: management
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

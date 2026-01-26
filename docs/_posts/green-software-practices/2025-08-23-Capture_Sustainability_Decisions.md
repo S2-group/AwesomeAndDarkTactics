@@ -7,9 +7,9 @@ t-sort: "Awesome Tactic"
 t-type: "Software Practice"
 categories: green-software-practice
 t-description: "Capturing sustainability in software design decisions. For example, rather than fearing optimization due to added complexity and risk, acknowledge the high computation and energy consumption and incorporate a solution like auto-scaling."
-t-participant: "Software Architects. Research Community.”
+t-participant: "Software Architects. Research Community."
 t-artifact: "AK Common Practice."
-t-context: "Software Architecture Knowledge (AK). Large Industry.”
+t-context: "Software Architecture Knowledge (AK). Large Industry."
 t-feature: "Sustainability Design Decisions."
 t-intent: "Incorporate sustainability into existing software AK."
 t-targetQA: "Sustainability in software."

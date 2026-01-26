@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Adjust CPU Load Balancing]"
+title:  "Adjust CPU Load Balancing"
 tags: management performance 
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

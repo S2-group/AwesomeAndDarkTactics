@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Using Storage Optimization for Efficient LLM Inference]"
+title:  "Using Storage Optimization for Efficient LLM Inference"
 tags: storage-optimization machine-learning architecture
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

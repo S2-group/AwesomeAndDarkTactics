@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Runtime Cost-Benefit–Aware Strategy Switching]"
+title:  "Runtime Cost-Benefit–Aware Strategy Switching"
 tags: cost-reduction strategies design
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic "

@@ -6,7 +6,7 @@ tags: machine-learning performance energy-footprint
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
 categories: green-ml-enabled-systems
-t-description: "Pipeline Parallelism executes different stages of retrieval, encoding, and generation concurrently, rather than sequentially. This reduces idle computation time, leading to higher energy efficiency. PipeRAG has been proposed.”
+t-description: "Pipeline Parallelism executes different stages of retrieval, encoding, and generation concurrently, rather than sequentially. This reduces idle computation time, leading to higher energy efficiency. PipeRAG has been proposed."
 t-participant: "AI and RAG Practitioners."
 t-artifact: "RAG-Based Systems."
 t-context: "RAG. Unsustainable RAG. Green AI."

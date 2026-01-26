@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Adopt Malleable Jobs]"
+title:  "Adopt Malleable Jobs"
 tags: management performance
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"

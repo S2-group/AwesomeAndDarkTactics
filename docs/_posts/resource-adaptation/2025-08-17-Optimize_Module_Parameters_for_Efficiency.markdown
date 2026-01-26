@@ -1,7 +1,7 @@
 ---
 layout: tactic
 
-title:  "[Optimize Module Parameters for Efficiency]"
+title:  "Optimize Module Parameters for Efficiency"
 tags: parameter-tuning performance
 t-sort: "Awesome Tactic"
 t-type: "Architectural Tactic"
